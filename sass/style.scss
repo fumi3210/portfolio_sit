@@ -1,4 +1,110 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   background: #e75454;
+  .is-fixed {
+    overflow: hidden; /* 背景スクロール防止 */
+  }
+}
+.button{
+
+  display: flex;
+  align-items: center;
+  padding: 6px 10px 6px 30px ;
+  width: 160px;
+  margin: 0 auto;
+  &_bg_contact{
+    background: #ffff;
+
+  }
+  &_bg_sns{
+    border: 1px solid #ffff;
+
+
+  }
+  &_icon{
+    width: 24px;
+    align-items: center;
+
+  }
+  &_text{
+    color: #ffff;
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+
+  }
+  &_icon-path{
+    fill: #ffff;
+    
+  }
+  &_icon-contact{
+      fill: #4a4a4a;
+
+    }
+    &-text_sns{
+      color: #ffff;
+    }
+
+}
+// header
+.header {
+  background: #4a4a4a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  &_container {
+    position: relative;
+  }
+
+  &_contens{
+    height: calc(100vh - 88px);
+    border-top: 1px solid #fff;
+    padding-top: 65px;
+    &.is-open{
+      transform: translateX(0); /* メニューを画面内に表示 */
+    }
+  }
+
+  &_logo {
+    display: inline-block;
+    padding: 14px 24px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  &_nav-item {
+    & + & {
+      margin-top: 10px;
+    }
+  }
+
+  &__nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &_menu-button {
+    border: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 30px;
+    height: 36px;
+    overflow: hidden;
+    color: transparent;
+      background: url(../img/bg_menu.png) no-repeat center center;
+     
+   
+    background-size: 100% auto;
+    cursor: pointer;
+    &.is-checked {
+      background: url(../img/bg_menu-close.png) no-repeat center center;
+     
+     
+      background-size: 100% auto;
+    }
+  }
 }
