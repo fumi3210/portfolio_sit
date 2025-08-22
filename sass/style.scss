@@ -1,9 +1,12 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  background: #e75454;
+  
   .is-fixed {
     overflow: hidden; /* 背景スクロール防止 */
   }
+}
+img{
+
 }
 .button{
 
@@ -102,9 +105,73 @@ body {
     cursor: pointer;
     &.is-checked {
       background: url(../img/bg_menu-close.png) no-repeat center center;
-     
-     
-      background-size: 100% auto;
+     background-size: 100% auto;
     }
   }
+}
+// fv
+.fv{
+  position: relative;
+  &_img{
+    
+  }
+  &_contens{
+    padding: 32px ;
+    position: absolute;
+    bottom: 26px;
+    left: 0;
+    width: 100%;
+    height: 209px;
+    background: url(../img/sp/bg_fv.png)
+    center center no-repeat;
+    background-size: 100% auto;
+
+  }
+  &_heading{
+
+  }
+  &_heading-main{
+    display: block;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+
+  }
+  &_heading-sub{
+    margin-top: 12px;
+    display: block;
+   font-size: 14px;
+
+  }
+}
+
+// service
+.section{
+  padding: 48px 0;
+  &_inner{
+    padding: 0 32px ;
+    
+  }
+  &_head{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+
+  }
+  &_head-main{
+    
+    font-size: 40px;
+    letter-spacing: 0.01em;
+
+  }
+  &_head-sub{
+  
+   font-size: 11px;
+
+  }
+  &_lead-text{
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+
 }

@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
   font-family: "Noto Sans JP", sans-serif;
-  background: #e75454;
 }
 body .is-fixed {
   overflow: hidden; /* 背景スクロール防止 */
@@ -88,4 +87,51 @@ body .is-fixed {
 .header_menu-button.is-checked {
   background: url(../img/bg_menu-close.png) no-repeat center center;
   background-size: 100% auto;
+}
+
+.fv {
+  position: relative;
+}
+.fv_contens {
+  padding: 32px;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+  width: 100%;
+  height: 209px;
+  background: url(../img/sp/bg_fv.png) center center no-repeat;
+  background-size: 100% auto;
+}
+.fv_heading-main {
+  display: block;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+.fv_heading-sub {
+  margin-top: 12px;
+  display: block;
+  font-size: 14px;
+}
+
+.section {
+  padding: 48px 0;
+}
+.section_inner {
+  padding: 0 32px;
+}
+.section_head {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.section_head-main {
+  font-size: 40px;
+  letter-spacing: 0.01em;
+}
+.section_head-sub {
+  font-size: 11px;
+}
+.section_lead-text {
+  font-size: 16px;
+  line-height: 1.6;
 }
