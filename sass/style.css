@@ -134,4 +134,25 @@ body .is-fixed {
 .section_lead-text {
   font-size: 16px;
   line-height: 1.6;
+}
+.section_contens {
+  margin-top: 40px;
+}
+
+.service_items + .service_items {
+  margin-top: 40px;
+}
+.service_item-name {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.service_item-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.service_img {
+  text-align: center;
+  margin-bottom: 14px;
 }/*# sourceMappingURL=style.css.map */

@@ -144,7 +144,7 @@ img{
   }
 }
 
-// service
+// 共通
 .section{
   padding: 48px 0;
   &_inner{
@@ -172,6 +172,37 @@ img{
     font-size: 16px;
     line-height: 1.6;
   }
+  &_contens{
+    margin-top: 40px;
+  }
 
+
+}
+// service
+.service{
+  &_items{
+    &+&{
+    margin-top:40px ;
+  }
+    
+  }
+  &_item-name{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+
+    
+  }
+  &_item-text{
+    font-size: 14px;
+    line-height: 1.6;
+    
+  }
+  &_img{
+    text-align: center;
+    margin-bottom: 14px;
+
+  }
 
 }
