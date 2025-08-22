@@ -146,6 +146,7 @@ img{
 
 // 共通
 .section{
+  
   padding: 48px 0;
   &_inner{
     padding: 0 32px ;
@@ -202,6 +203,42 @@ img{
   &_img{
     text-align: center;
     margin-bottom: 14px;
+
+  }
+
+}
+// works
+.works{
+  background: #fafafa;
+  &_list{
+    
+  }
+  &_items{
+    
+      &+&{
+    margin-top:40px ;
+  }
+
+  }
+  &_item-img{
+    margin-bottom: 12px;
+    img{
+      box-shadow: 0 4px 15px 0 #4a4a4a 0.15 ;
+    }
+
+  }
+  &_item-name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+  }
+  &_item-link{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+  margin-bottom: 16px;
+   
 
   }
 

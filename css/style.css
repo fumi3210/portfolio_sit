@@ -156,3 +156,27 @@ body .is-fixed {
   text-align: center;
   margin-bottom: 14px;
 }
+
+.works {
+  background: #fafafa;
+}
+.works_items + .works_items {
+  margin-top: 40px;
+}
+.works_item-img {
+  margin-bottom: 12px;
+}
+.works_item-img img {
+  box-shadow: 0 4px 15px 0 #4a4a4a 0.15;
+}
+.works_item-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.works_item-link {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
