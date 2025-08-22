@@ -32,7 +32,7 @@ img{
   &_text{
     color: #ffff;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.08em;
 
   }
@@ -243,3 +243,36 @@ img{
   }
 
 }
+// About
+.About{
+  &_container{
+    
+  }
+  &_img{
+    margin-bottom: 32px;
+    img{
+      box-shadow: 0 4px 15px 0 #4a4a4a 0.15 ;
+
+    }
+
+  }
+  &_text-contens{
+    
+
+  }
+  
+  &_text-contens{
+    
+  }
+  &_tex{
+    font-size: 16px;
+    line-height: 1.6;
+
+  }
+  &_sub-tex{
+    margin-top: 1em;
+
+  }
+
+}
+

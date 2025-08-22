@@ -26,7 +26,7 @@ body .is-fixed {
 .button_text {
   color: white;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.08em;
 }
 .button_icon-path {
@@ -179,4 +179,18 @@ body .is-fixed {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 16px;
+}
+
+.About_img {
+  margin-bottom: 32px;
+}
+.About_img img {
+  box-shadow: 0 4px 15px 0 #4a4a4a 0.15;
+}
+.About_tex {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.About_sub-tex {
+  margin-top: 1em;
 }
