@@ -275,6 +275,69 @@ img{
   }
 
 }
+
+// Flow
+.Flow{
+  &_container{
+    
+  }
+  &_text-contens{
+
+
+  }
+  &_list{
+    margin-top: 64px;
+
+  }
+  &_items{
+    &+&{
+      margin-top: 46px ;
+    }
+    position: relative;
+    border: 1px solid #808080;
+    padding:46px 16px 24px  ;
+
+  }
+  &_item-number{
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #4a4a4a;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+
+
+  }
+  &_item-img{
+    margin-bottom: 24px;
+    text-align: center;
+    img{
+
+    }
+  }
+  &_item-name{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  
+
+  }
+  &_item-text{
+    
+    font-size: 14px;
+    line-height: 1.6;
+
+  }
+  
+}
+
 // Message
 .Message{
   &_container{
@@ -287,7 +350,7 @@ img{
 
   }
   &_text{
-    
+
   }
 
 }
