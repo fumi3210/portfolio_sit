@@ -234,3 +234,46 @@ body .is-fixed {
   font-size: 14px;
   line-height: 1.6;
 }
+
+.page-bottom {
+  color: white;
+}
+
+.page_head-sub {
+  text-align: center;
+  font-size: 11px;
+}
+
+.page_head-main {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+}
+
+.page-bottom_item {
+  padding: 40px;
+}
+
+.page_bootm-item-contact {
+  background: #6f6f6f;
+}
+
+.page_bootm-item-twitter {
+  background: #4a4a4a;
+}
+
+.page_border {
+  border: solid white;
+}
+
+.page_color {
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer_copy {
+  font-size: 11px;
+}
